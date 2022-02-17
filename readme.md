@@ -55,3 +55,8 @@ Mclnally</a> |
 <a class="hoverable" href="https://linktr.ee/stephensmoore" target="_blank">Stephen Moore</a> |
 <a class="hoverable" href="https://linktr.ee/jenya10016" target="_blank">Jenya
 Seletsky</a>
+
+
+githib https://github.com/Jenya10016/proManagementSyst
+
+heroku https://jenya10016-pms.herokuapp.com
