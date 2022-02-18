@@ -1,4 +1,4 @@
-body {
+/* body {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -49,4 +49,60 @@ footer a:link {
 
 footer a:hover {
     color: gold;
+} */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    overflow-x: hidden;
+}
+.error {
+    font-size: 1.2rem;
+}
+.card {
+    width: 20em;
+    min-height: 14em;
+}
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#editor {
+    height: 20em;
+}
+main {
+    flex: 1 0 auto;
+    padding-bottom: 10em;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    height: 6rem;
+}
+footer a:visited {
+    color: white;
+}
+footer a:link {
+    color: white;
+}
+footer a:hover {
+    color: gold;
+}
+@media only screen and (max-width: 600px) {
+    footer {
+        width: 100%;
+        background-color: #212529;
+        color: white;
+        text-align: center;
+        height: 8rem;
+    }
+    main {
+        flex: 1 0 auto;
+        padding-bottom: 10em;
+    }
 }
